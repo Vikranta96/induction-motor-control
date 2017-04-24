@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: induction-motor-control
+  host: induction-motor-control
+  disk_quota: 1024M
+  services:
+  - induction-motor-control-ibm-iot-for-electronics
+  - induction-motor-control-iotf-service
+  - App ID-j1wewy7l
